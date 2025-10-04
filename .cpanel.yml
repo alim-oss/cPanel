@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/homec/aliwebsite/public_html/
+    - /bin/cp -R images $DEPLOYPATH
